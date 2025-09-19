@@ -1,0 +1,2 @@
+# Connecting-LDPC-simulation-directly-to-memory-architecture-and-packaging-
+This project bridges LDPC error correction with real-world memory systems, particularly NAND flash and DRAM technologies used in SSDs and mobile devices. LDPC codes are not just theoretical tools—they are core components of modern memory controllers, enabling reliable data storage in high-density, error-prone environments.
