@@ -22,3 +22,18 @@ By connecting LDPC simulation to memory and packaging, your project becomes a re
 Validate ECC strategies for future NAND designs
 Explore controller optimization for AI and edge devices
 Simulate packaging-level parallelism for high-throughput systems
+
+📚 Key References for Your LDPC + Memory Packaging Project
+🧠 LDPC in NAND Flash Memory Controllers
+Soft-Decision LDPC in NAND Flash Dong, Xie, Zhang (RPI & Intel)  On the Use of Soft-Decision ECC in NAND Flash → Explores LLR modeling, cell-to-cell interference, and nonuniform sensing for LDPC in NAND.
+LDPC-in-SSD: USENIX FAST Conference Zhao et al.  LDPC-in-SSD: Making Advanced ECC Work in SSDs → Introduces LDPC decoding optimizations for SSDs, including latency mitigation and soft sensing.
+⚡ CUDA-Accelerated LDPC Decoding
+NVIDIA Sionna LDPC CUDA Tutorial  GPU-Accelerated LDPC Decoding → Shows how to implement LDPC decoding using CUDA, with memory sharing strategies.
+GitHub: Gallager B LDPC CUDA Optimization  Optimizing LDPC Decoders on GPU → Includes shared memory, constant memory, and asynchronous streaming for decoding speedup.
+📊 BER vs SNR Analysis
+IJSRD Journal – Min-Sum LDPC BER Analysis  BER Performance of LDPC Codes → Simulates BER vs SNR for different LDPC configurations using MATLAB.
+LDPC Overview & BER Simulation  LDPC Codes and BER Graphs → Explains LDPC structure, parity matrices, and BER behavior near Shannon limit.
+📦 SK hynix Controller & Packaging Architecture
+SK hynix Advanced Packaging for AI  IEDM 2023 Paper – HBM & TSV Packaging → Details TSV scaling, micro-bump density, and thermal management in HBM packaging.
+SK hynix Packaging Strategy  Packaging in Heterogeneous Integration Era → Discusses CoC, MR-MUF, and Fan-out RDL technologies for NAND and DRAM.
+SK hynix HBM3E Architecture Tutorial  Advanced Packaging for Beyond Memory → Shows how HBM packaging integrates with SoC via 2.5D SiP and TSVs.
